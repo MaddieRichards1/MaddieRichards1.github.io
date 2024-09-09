@@ -1,33 +1,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
+    background: #F4D9D0;
     
 }
 
 #logo {
     margin:0px;
     padding: 8px;
-    font-family: "Fredoka One", sans-serif;
+    font-family:"Sofia", sans-serif;
+    text-align: center;
+    font-size: 70px;
 }
 
-h1{
-    margin: 0px;
-}
 ul{
     margin: 0px;
 }
 
 body > header{
-    background-color: orange;
-    color: white;
-    display: flex;
-    height: 10vh;
+    background-color: #D9ABAB;
+    color: #921A40;
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+    height: 20vh;
     align-items: center;
     justify-content:space-around;
 }
 
 #nav-ul{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #D9ABAB;
 
 
 }
@@ -36,21 +44,22 @@ body > header{
     padding: 8px;
     margin:16px;
 }
+
 body > header > nav > ul{
     list-style: none;
     text-decoration: none;
 }
+
 .navbutton{
-    color: white;
+    color: #921A40;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 12%;
+
 
 }
 
 body > main article{
-    width: 70%;
+    width: 100%;
     margin: auto;
 
 }
@@ -64,37 +73,71 @@ body > main article{
     width: 70%;
 }
 
+#Guidence > ul > li {
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2%;
+}
+#guidence-and-info {
+    flex-direction: column;
+    padding-left: 2%;
+    padding-top: 10%;
+}
+
+#guidence{
+    border-color: #921A40;
+}
+
+
 form{
     text-align: center;
 }
 
-h2{
-    text-align: center;
+h1{
+    text-align: left;
+    padding-top: 5%;
+    font-family: "Sofia", sans-serif;
 }
 
-body > footer{
-    background-color: orange;
-}
 
 img{
-    border-radius: 100%;
+    border-radius: 10%;
     
 }
 
 #main-footer{
     display: flex;
 }
-
+footer {
+    text-align: center;
+}
 #footer-ul{
     display: flex;
     list-style: none;
+    justify-content: space-between;
 }
 
 #footer-ul > div > li{
     margin-left: 12px;
 }
-
+section{
+    margin-bottom: 2px;
+}
 #footer-ul > div > li > a{
     color: white;
     text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+#footer-logo {
+    color: #921A40;
 }
